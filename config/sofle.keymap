@@ -55,7 +55,7 @@
 };
 
 &sensors {
-	triggers-per-rotation = <38>;
+	triggers-per-rotation = <40>;
 };
 
 #define BASE 0
