@@ -60,11 +60,11 @@
 
 &left_encoder {
 	steps = <15>;
-}
+};
 
 &right_encoder {
 	steps = <15>;
-}
+};
 
 #define BASE 0
 #define LOWER 1
