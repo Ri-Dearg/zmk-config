@@ -58,6 +58,14 @@
 	triggers-per-rotation = <30>;
 };
 
+&left_encoder {
+	steps = <15>;
+}
+
+&right_encoder {
+	steps = <15>;
+}
+
 #define BASE 0
 #define LOWER 1
 #define RAISE 2
