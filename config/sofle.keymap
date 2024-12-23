@@ -54,16 +54,17 @@
 	};
 };
 
+// Part No. EC11N1525404
 &sensors {
-	triggers-per-rotation = <30>;
+	triggers-per-rotation = <15>;
 };
 
 &left_encoder {
-	steps = <30>;
+	steps = <15>;
 };
 
 &right_encoder {
-	steps = <30>;
+	steps = <15>;
 };
 
 #define BASE 0
