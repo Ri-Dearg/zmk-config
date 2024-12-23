@@ -59,11 +59,11 @@
 };
 
 &left_encoder {
-	steps = <15>;
+	steps = <30>;
 };
 
 &right_encoder {
-	steps = <15>;
+	steps = <30>;
 };
 
 #define BASE 0
@@ -104,7 +104,7 @@
 			&kp LGUI &kp LALT &kp LCTRL &tog LOWER  &kp SPACE &kp RET &tog RAISE &kp RCTRL &kp RALT &kp RGUI
 			>;
 			
-			sensor-bindings = <&inc_dec_kp DOWN UP &inc_dec_kp RIGHT LEFT>;
+			sensor-bindings = <&inc_dec_kp RIGHT LEFT &inc_dec_kp DOWN UP>;
 		};
 		
 		lower_layer {
