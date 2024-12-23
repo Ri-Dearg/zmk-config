@@ -60,11 +60,11 @@
 };
 
 &left_encoder {
-	steps = <15>;
+	steps = <30>;
 };
 
 &right_encoder {
-	steps = <15>;
+	steps = <30>;
 };
 
 #define BASE 0
